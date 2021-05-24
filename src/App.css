@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(44, 44, 44);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.userLinkHeader {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 72, 72);
+    padding: 5px 100px;
+    font-size: calc(15px + 1vw);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputUserLink {
+    width: calc(300px + 1vw);
+    height: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.shourtBtn {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(12px + 1vw);
+    width: calc(150px + 1vw);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(46, 57, 82);
+    background-color: rgb(99, 99, 99);
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputUserLink {
+    margin-bottom: 2%;
+}
+
+.shourtLinkHeader {
+    background-color: rgb(72, 72, 72);
+    color: rgb(255, 255, 255);
+    padding: 5px 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    font-size: calc(15px + 1vw);
 }
